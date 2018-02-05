@@ -1,0 +1,13 @@
+<div class="container">
+    <span>
+      <img class="logo"
+        alt="{{ crypto.name }}"
+        src="{{ getLogoUrl( ) }}">
+      <span class="symbol">{{ crypto.symbol }}</span>
+      <span class="name" *ngIf="crypto.name">
+        [{{ crypto.name }}]
+      </span>
+    </span>
+
+    <span class="exchange-rate">{{ crypto.exchangeRate > 0 ? crypto.exchangeRate : '-' }}</span>
+</div>

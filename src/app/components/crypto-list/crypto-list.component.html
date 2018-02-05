@@ -1,0 +1,6 @@
+<ul class="list">
+  <li *ngFor="let c of items | async" class="item">
+      <crypto-details [crypto]="c"></crypto-details>
+      <button (click)="removeFavorite( c )">Remove</button>
+  </li>
+</ul>

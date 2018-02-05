@@ -1,0 +1,15 @@
+<form class="container"
+  [formGroup]=form
+  (submit)="addFavorite( )">
+  <div>
+    <input class="input symbol" #symbol
+      formControlName="symbol"
+      placeholder="Symbol"
+      type="text">
+    <input class="input name"
+      formControlName="name"
+      placeholder="Name"
+      type="text">
+  </div>
+  <button class="button" type="submit">Add ★</button>
+</form>

@@ -1,0 +1,15 @@
+
+<div class="container">
+  <h1>My cryptocurrency watchlist</h1>
+
+  <crypto-add
+    (addedFavorite)="onAddFavorite( $event )">
+  </crypto-add>
+
+  <hr>
+
+  <crypto-list
+    [items]="cryptos$"
+    (removedFavorite)="onRemoveFavorite( $event )">
+  </crypto-list>
+</div>

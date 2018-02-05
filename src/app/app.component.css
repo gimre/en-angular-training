@@ -1,0 +1,12 @@
+
+:host {
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  margin: auto;
+  text-align: initial;
+  width: 80vw;
+}

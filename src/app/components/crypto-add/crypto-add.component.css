@@ -1,0 +1,32 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.container > * {
+  box-sizing: border-box;
+  height: 30px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.button {
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 75px;
+}
+
+.input {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+.symbol {
+  text-transform: uppercase;
+}
